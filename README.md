@@ -1,4 +1,4 @@
-# [CUSEC 2025](https://2025.cusec.net/) - Build Fast, Build Fresh: Nuxt and Tailwind - Build a Trivia quiz generator with Nuxt and Tailwind
+# [CUSEC 2025](https://2025.cusec.net/) - Build Fast, Build Fresh: Nuxt and Tailwind - Build a Trivia quiz generator
 > By Florent Giraud ([LinkedIn](https://www.linkedin.com/in/fgiraud42/))
 
 ## FOR THIS WORKSHOP, YOU WILL NEED:
