@@ -44,6 +44,11 @@ Create a `.vscode/settings.json` at the root folder of the project with
 </template>
 ```
 
+Congrats you have setup your first Nuxt project with Tailwind
+
+![Screenshot from 2025-01-06 23-45-19](https://github.com/user-attachments/assets/946068ba-bcf1-4adb-8cbe-91b7b67de336)
+
+
 
 
 
