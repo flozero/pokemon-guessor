@@ -173,7 +173,7 @@ export default defineEventHandler(async (): Promise<GenericReturn<QuizAPIReturn>
   })
 ```
 
-## Update home page to now create a Quiz and redirect the user to the quiz page `/pages/quiz/[quizId].vue`
+## Update home page to now create a Quiz and redirect the user to the quiz page `/pages/index.vue`
 
 ```html
 <header class="bg-slate-800 py-10 flex justify-between items-center text-white px-4 text-4xl ">
@@ -351,7 +351,7 @@ export default defineEventHandler(async (event): Promise<GenericReturn<PokemonAP
   })
 ```
 
-## 📍 Update Quiz page
+## 📍 Update Quiz page `/pages/quiz/[quizId].vue`
 
 - basic setup
 
