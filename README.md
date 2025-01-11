@@ -74,7 +74,7 @@ Congrats you have setup your first Nuxt project with Tailwind
 
 ## 📍 Create shared folder and what we will need inside
 
-### `shared/types/quiz.types.ts`
+### `shared/types/quiz.ts`
 
 ```typescript
 export interface Quiz {
@@ -87,7 +87,7 @@ export type QuizAPICreateParams = Omit<Quiz, "id" | "created_at">
 export type QuizAPIReturn = Quiz
 ```
 
-### `shared/types/pokemon.types.ts`
+### `shared/types/pokemon.ts`
 
 ```typescript
 export interface PokemonAPICreateQuestionReturn {
@@ -100,7 +100,7 @@ export interface PokemonAPICreateQuestionReturn {
 }
 ```
 
-### `shared/types/genericReturn.types.ts`
+### `shared/types/genericReturn.ts`
 
 ```typescript
 export type GenericReturn<T> = {
@@ -118,8 +118,8 @@ export const randomNumber = (min: number, max: number) => Math.floor(Math.random
 ## 📍 Create quiz db.ts `server/database/db.ts`
 
 ```typescript
-import { GenericReturn } from "~/shared/types/genericReturn.types"
-import { Quiz, QuizAPICreateParams } from "~/shared/types/quiz.types"
+import { GenericReturn } from "~/shared/types/genericReturn"
+import { Quiz, QuizAPICreateParams } from "~/shared/types/quiz"
 
 const quiz: Quiz[] = []
 
