@@ -49,11 +49,56 @@ Congrats you have setup your first Nuxt project with Tailwind
 ![Screenshot from 2025-01-06 23-45-19](https://github.com/user-attachments/assets/946068ba-bcf1-4adb-8cbe-91b7b67de336)
 
 
+## 📍 [Setup routing](https://nuxt.com/docs/getting-started/routing)
+
+- Create a `pages` folder at the root. Move `app.vue` file into pages and rename it to `index.vue`. This is going to be the home page of the app. Everything should work the same
+- Create a new file `pages/quiz/[quizId].vue`. This will be the page we would be able to share for multi player for examples. 
+```pages/quiz/[quizId].vue
+<template>
+    <div>
+        {{ $route.params.quizId }}
+    </div>
+</template>
+```
+- If everything worked nagivate to `http://localhost:3000/quiz/awesome-id` You should see the text `awesome-id` 
+
+## 📍 Create pokemon api service to retrieve pokemons
+
+1
+
+- create service pokemon api
+- env variable with runtimeconfig
+-
+
+2 endpoint api
+- explain folder structure
+
+3 why do I create a service and not call directly pokemon from the api
+
+4
+- create db
+- create migration via generate
 
 
 
 
+## 📍
+
+## 📍
+
+## 📍 Ideas to improve the project ?
+
+- [make it responsive for desktop](https://tailwindcss.com/docs/responsive-design)
+- Use your own database to store quiz
 
 
 
 
+## LINKS:
+
+- [tsnode-poke-package](https://pokenode-ts.vercel.app/)
+- [pokeAPI](https://pokeapi.co/docs/v2)
+- [Nuxt](https://nuxt.com)
+- [Tailwind](https://tailwindcss.com)
+https://tailwindui.com/components
+https://image.nuxt.com/get-started/installation
