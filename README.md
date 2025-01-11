@@ -9,6 +9,10 @@
 - Git
 - A terminal
 
+## Goal of the project 
+
+<img width="1718" alt="Screenshot 2025-01-10 at 10 52 13 PM" src="https://github.com/user-attachments/assets/f6fa6bc2-f07f-4a61-b106-08e9bb0c9a27" />
+
 ## 📍 Setting up your Nuxt project and TailwindCSS
 
 1. Create a new project 
@@ -46,6 +50,10 @@ Create a `.vscode/settings.json` at the root folder of the project with
 Congrats you have setup your first Nuxt project with Tailwind
 
 ![Screenshot from 2025-01-06 23-45-19](https://github.com/user-attachments/assets/946068ba-bcf1-4adb-8cbe-91b7b67de336)
+
+## Nuxt Goal structure
+
+<img width="913" alt="Screenshot 2025-01-10 at 10 51 10 PM" src="https://github.com/user-attachments/assets/1f48c544-8349-44d8-92ce-4f72a5921b9f" />
 
 
 ## 📍 [Setup routing](https://nuxt.com/docs/getting-started/routing)
