@@ -27,31 +27,23 @@ Architecture:
 npx nuxi@latest init trivia-quiz-generator
 ```
 
+2. Install pokenode type wrapper
 ```javascript
 npm i pokenode-ts
 ```
 
-2. Install tailwind. You can manually Installed tailwind or you can use Nuxt modules to simplify the setup. I recommend to use as much [NUXT MODULES](https://nuxt.com/modules) as there are a lot of existing modules for a lot of things you may need to speed up your dev.
+3. Install Nuxt image module
+
+```javascript
+npx nuxi@latest module add @nuxt/image
+```
+4. Install tailwind nuxt module.
 
 ```javascript
 npx nuxi module add @nuxtjs/tailwindcss`
 ```
 
-3. Improve auto completions for tailwind classes so they show faster
-
-Create a `.vscode/settings.json` at the root folder of the project with 
-
-```json
-{
-    "editor.quickSuggestions": {
-        "other": "on",
-        "comments": "off",
-        "strings": "off"
-    }
-}
-```
-
-4. Update app.vue with
+5. Update app.vue with
 
 ``` vue
 <template>
