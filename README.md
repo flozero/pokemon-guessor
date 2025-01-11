@@ -87,6 +87,7 @@ Button classes:
 
 ## 📍 Ideas to improve the project ?
 
+- Make the quiz api more quiz agnostic
 - Improve error handling to have a nicer look and redirect when quiz is not found
 - Use a real database
 - [Improve responsivness](https://tailwindcss.com/docs/responsive-design)

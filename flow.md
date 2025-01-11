@@ -33,6 +33,7 @@
         - create button component
 
 ### Improvments
+- Make the quiz api more quiz agnostic
 - Use a real DB
 - improve responsive
 - Authentication
