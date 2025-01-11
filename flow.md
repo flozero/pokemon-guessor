@@ -18,6 +18,7 @@
     - Show excalidraw how the project is split
     - Create first page and how Nuxt handle routing
     - Show some tailwind responsive and auto complete
+    - Create shared folder
     - Create db.ts file and explain we will use shared folder to share types and utils. They are auto imported
     - Create pokemon api + util + shared type
     - Put the accent on interfaces they are like contract so you can easily switch to one db / service to another until you respect the contract

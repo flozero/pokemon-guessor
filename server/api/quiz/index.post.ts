@@ -4,9 +4,6 @@ import { Quiz } from "~/shared/types/quiz.types"
 
 export default defineEventHandler(async (): Promise<GenericReturn<Quiz>> => {
     const { data: quiz_data, error: quiz_error } = await db().create({
-        "errors": 0,
-        "success": 0,
-        "total_questions": 10,
         "users": ["1"],
     })
 

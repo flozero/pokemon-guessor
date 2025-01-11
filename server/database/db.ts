@@ -1,10 +1,10 @@
 import { GenericReturn } from "~/shared/types/genericReturn.types"
-import { Quiz, QuizAPICreate } from "~/shared/types/quiz.types"
+import { Quiz, QuizAPICreateParams } from "~/shared/types/quiz.types"
 
 const quiz: Quiz[] = []
 
 export const db = () => {
-  const create = async (data: QuizAPICreate): Promise<GenericReturn<Quiz>> => {
+  const create = async (data: QuizAPICreateParams): Promise<GenericReturn<Quiz>> => {
     const q: Quiz = {
       id: new Date().getTime().toString(),
       created_at: new Date(),
