@@ -5,7 +5,6 @@
 
 - An IDE (I am using VS Code)
     - Also recommend to install [vscode tailwind plugin](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
-    - 
 - [Node.js](https://nodejs.org/en/) installed on your computer
 - Git
 - A terminal
@@ -64,41 +63,35 @@ Congrats you have setup your first Nuxt project with Tailwind
 
 ## 📍 Create pokemon api service to retrieve pokemons
 
-1
+## 📍 Create db.ts
 
-- create service pokemon api
-- env variable with runtimeconfig
--
+## 📍 Create Pokemon service
 
-2 endpoint api
-- explain folder structure
+## 📍 Update home page
 
-3 why do I create a service and not call directly pokemon from the api
+## 📍 Update Quiz page
 
-4
-- create db
-- create migration via generate
+## 📍 Refactor by creating header component and button
 
+Button classes:
 
-
-
-## 📍
-
-## 📍
+`bg-white text-2xl leading-relaxed border-2 rounded-lg border-slate-400 px-6 py-4 hover:bg-slate-300 hover:text-black first-letter:capitalize`
 
 ## 📍 Ideas to improve the project ?
 
-- [make it responsive for desktop](https://tailwindcss.com/docs/responsive-design)
-- Use your own database to store quiz
+- Improve error handling to have a nicer look and redirect when quiz is not found
+- Use a real database
+- [Improve responsivness](https://tailwindcss.com/docs/responsive-design)
+- Authentication
+- Allow external user to join a quiz session
+- Improve design
+- Have fun 
 
-
-
-
-## LINKS:
+## USEFUL LINKS:
 
 - [tsnode-poke-package](https://pokenode-ts.vercel.app/)
 - [pokeAPI](https://pokeapi.co/docs/v2)
 - [Nuxt](https://nuxt.com)
 - [Tailwind](https://tailwindcss.com)
-https://tailwindui.com/components
-https://image.nuxt.com/get-started/installation
+- [TailwindUI](https://tailwindui.com/components)
+- [Nuxt image Module](https://image.nuxt.com/get-started/installation)
