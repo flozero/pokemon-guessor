@@ -158,8 +158,8 @@ export const db = () => {
 
 ```typescript
 import { db } from "~/server/database/db"
-import { GenericReturn } from "~/shared/types/genericReturn.types"
-import { QuizAPIReturn } from "~/shared/types/quiz.types"
+import { GenericReturn } from "~/shared/types/genericReturn"
+import { QuizAPIReturn } from "~/shared/types/quiz"
 
 export default defineEventHandler(async (): Promise<GenericReturn<QuizAPIReturn>> => {
     const { data: quiz_data, error: quiz_error } = await db().create({
@@ -222,8 +222,8 @@ if everything is Done well now when you click on the button you should be redire
 ```typescript
 import { EventHandlerRequest, H3Event } from "h3"
 import { PokemonClient } from "pokenode-ts";
-import { GenericReturn } from "~/shared/types/genericReturn.types";
-import { PokemonAPICreateQuestionReturn } from "~/shared/types/pokemon.types";
+import { GenericReturn } from "~/shared/types/genericReturn";
+import { PokemonAPICreateQuestionReturn } from "~/shared/types/pokemon";
 import { randomNumber } from "~/shared/utils/number";
 
 let pokemons: string[] = []
@@ -324,8 +324,8 @@ return possible_answers
 ```typescript
 import { db } from "~/server/database/db"
 import { usePokemonAPI } from "~/server/services/pokemon"
-import { GenericReturn } from "~/shared/types/genericReturn.types"
-import { PokemonAPICreateQuestionReturn } from "~/shared/types/pokemon.types"
+import { GenericReturn } from "~/shared/types/genericReturn"
+import { PokemonAPICreateQuestionReturn } from "~/shared/types/pokemon"
 
 export default defineEventHandler(async (event): Promise<GenericReturn<PokemonAPICreateQuestionReturn>> => {
     const pokemon_api = usePokemonAPI(event)
