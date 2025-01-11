@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "pokemon-guessor",
   "private": true,
   "type": "module",
   "scripts": {

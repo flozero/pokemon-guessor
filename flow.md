@@ -13,7 +13,7 @@
 
 ### Goal of the Workshop:
 
-    - Show them the github link of the project https://github.com/flozero/trivia-quiz-generator. Tell them to follow the readme it will be easier to copy past things if needed
+    - Show them the github link of the project https://github.com/flozero/pokemon-guessor. Tell them to follow the readme it will be easier to copy past things if needed
     - Show the final result
     - Show excalidraw how the project is split
     - Create first page and how Nuxt handle routing

@@ -1,4 +1,4 @@
-# [CUSEC 2025](https://2025.cusec.net/) - Build Fast, Build Fresh: Nuxt and Tailwind - Build a Trivia quiz generator
+# [CUSEC 2025](https://2025.cusec.net/) - Build Fast, Build Fresh: Nuxt and Tailwind - Build a Pokemon guessor
 > By Florent Giraud ([LinkedIn](https://www.linkedin.com/in/fgiraud42/))
 
 ## 📍 For this workshop you will need:
@@ -24,7 +24,7 @@ Architecture:
 1. Create a new project 
 
 ```javascript
-npx nuxi@latest init trivia-quiz-generator
+npx nuxi@latest init pokemon-guessor
 ```
 
 2. Install pokenode type wrapper
