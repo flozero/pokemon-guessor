@@ -1,7 +1,7 @@
 # [CUSEC 2025](https://2025.cusec.net/) - Build Fast, Build Fresh: Nuxt and Tailwind - Build a Trivia quiz generator
 > By Florent Giraud ([LinkedIn](https://www.linkedin.com/in/fgiraud42/))
 
-## FOR THIS WORKSHOP, YOU WILL NEED:
+## 📍 For this workshop you will need:
 
 - An IDE (I am using VS Code)
     - Also recommend to install [vscode tailwind plugin](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
@@ -51,7 +51,7 @@ Congrats you have setup your first Nuxt project with Tailwind
 
 ![Screenshot from 2025-01-06 23-45-19](https://github.com/user-attachments/assets/946068ba-bcf1-4adb-8cbe-91b7b67de336)
 
-## Nuxt Goal structure
+## 📍 Nuxt Goal structure
 
 <img width="913" alt="Screenshot 2025-01-10 at 10 51 10 PM" src="https://github.com/user-attachments/assets/1f48c544-8349-44d8-92ce-4f72a5921b9f" />
 
