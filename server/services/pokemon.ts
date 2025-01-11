@@ -79,7 +79,6 @@ export const usePokemonAPI = ((event: H3Event<EventHandlerRequest>) => {
                 data: null
             }
         }
-
     }
 
     return {

@@ -92,5 +92,4 @@ const resetAndRetrieveNewQuestion = async () => {
     pokemon_name_selected.value = null
     await refresh()
 }
-
 </script>

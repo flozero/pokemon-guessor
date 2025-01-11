@@ -5,3 +5,4 @@ export interface Quiz {
 }
 
 export type QuizAPICreateParams = Omit<Quiz, "id" | "created_at">
+export type QuizAPIReturn = Quiz
