@@ -27,13 +27,11 @@ Architecture:
 npx nuxi@latest init trivia-quiz-generator
 ```
 
-``javascript
+```javascript
 npm i pokenode-ts
 ```
 
 2. Install tailwind. You can manually Installed tailwind or you can use Nuxt modules to simplify the setup. I recommend to use as much [NUXT MODULES](https://nuxt.com/modules) as there are a lot of existing modules for a lot of things you may need to speed up your dev.
-
-
 
 ```javascript
 npx nuxi module add @nuxtjs/tailwindcss`
